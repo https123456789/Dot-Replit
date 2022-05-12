@@ -1,0 +1,8 @@
+language = "clojure"
+
+[languages.clojure]
+pattern = "**/*.clj"
+syntax = "clojure"
+
+  [languages.clojure.languageServer]
+  start = ["clojure-lsp"]

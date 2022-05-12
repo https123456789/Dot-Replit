@@ -1,0 +1,8 @@
+language = "javascript"
+
+[language.javascript]
+pattern = "**/{*.js,*.jsx,*.ts,*tsx,*mjs,*.cjs}"
+syntax = "javascript"
+
+  [language.javascript.languageServer]
+  start = ["typescript-language-server", "--stdio"]

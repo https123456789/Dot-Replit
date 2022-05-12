@@ -1,0 +1,8 @@
+language = "python"
+
+[language.python]
+pattern = "**/*.py"
+syntax = "python"
+
+  [language.python.languageServer]
+  start = ["pyls"]
